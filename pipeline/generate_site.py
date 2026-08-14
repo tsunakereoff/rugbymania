@@ -23,7 +23,8 @@ ASSETS = ROOT / "assets"
 CONTENT = ROOT / "content" / "articles"
 
 SITE_BASE = "https://rugbymania.jp/"
-GA_MEASUREMENT_ID = ""  # GA4のG-XXXXXXXXXXを設定すると計測タグが入る
+GA_MEASUREMENT_ID = "G-CT0EPG6E4Q"
+SPONSOR_CTA_URL = "https://tunakare.jp/?utm_source=rugbymania&utm_medium=referral&utm_campaign=sponsor"
 
 WEEKDAYS_JP = ["月", "火", "水", "木", "金", "土", "日"]
 LEAGUE_ORDER = [
@@ -612,7 +613,8 @@ def build_league(lg, articles):
                      f'<p class="more"><a href="{R}articles/index.html">読みもの一覧へ →</a></p></section>')
         body += ('<section class="sponsor"><h2>この部活を応援する企業</h2>'
                  '<p class="todo">（協賛メニュー連携枠：スポンサー企業ロゴ・リンクをここに配置）</p>'
-                 '<p><a class="cta" href="#">協賛について問い合わせる →</a></p></section>')
+                 f'<p><a class="cta" href="{SPONSOR_CTA_URL}" target="_blank" rel="noopener" '
+                 'onclick="window.gtag&&gtag(\'event\',\'cv_sponsor_click\')">協賛について問い合わせる →</a></p></section>')
         write_page(f"{code}/clubs/{slug}",
                    page(R, f'{name} 試合結果・日程・戦績 | ラグビーマニア', body, meta,
                         path=f"{code}/clubs/{slug}/",
