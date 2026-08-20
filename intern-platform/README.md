@@ -21,6 +21,7 @@
 | [docs/09_strategy-stress-test.md](docs/09_strategy-stress-test.md) | 戦略ストレステスト（「本当に勝てるのか」5段階深掘りと5つの戦略修正） |
 | [docs/10_tactics.md](docs/10_tactics.md) | 戦術設計書（チャネル別ボトムアップ数値・週次オペ・検証ゲート・感度分析） |
 | [docs/11_revised-model.md](docs/11_revised-model.md) | 修正モデル（面談レス設計・優秀低学年ターゲット転換・カニバリ整理と料金ラダー） |
+| [docs/12_gtm-plan.md](docs/12_gtm-plan.md) | GTM詳細設計（転換フィー実例調査と選択制メニュー・5軸審査フィルター・集客の具体経路・代替案比較） |
 
 ## 事業の前提（口頭指示の整理）
 
