@@ -23,6 +23,7 @@
 | [docs/11_revised-model.md](docs/11_revised-model.md) | 修正モデル（面談レス設計・優秀低学年ターゲット転換・カニバリ整理と料金ラダー） |
 | [docs/12_gtm-plan.md](docs/12_gtm-plan.md) | GTM詳細設計（転換フィー実例調査と選択制メニュー・5軸審査フィルター・集客の具体経路・代替案比較） |
 | [docs/13_coldstart-usp.md](docs/13_coldstart-usp.md) | コールドスタート再設計・学生向けUSP確定・ツナカレインターン統合（供給先行への修正） |
+| [docs/14_acquisition.md](docs/14_acquisition.md) | 募集形態の決定（公開×審査制ハイブリッド）と学生集客アーキテクチャ（4類型・オファー階段・許容CAC） |
 
 ## 事業の前提（口頭指示の整理）
 
