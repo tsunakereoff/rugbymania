@@ -19,6 +19,7 @@
 | [docs/07_whitespace-analysis.md](docs/07_whitespace-analysis.md) | 市場の空白の性質見極め（大手撤退理由・口コミ専業空白の深掘り） |
 | [docs/08_brand.md](docs/08_brand.md) | ブランド戦略（サブブランド vs 独立ブランドの比較・推奨) |
 | [docs/09_strategy-stress-test.md](docs/09_strategy-stress-test.md) | 戦略ストレステスト（「本当に勝てるのか」5段階深掘りと5つの戦略修正） |
+| [docs/10_tactics.md](docs/10_tactics.md) | 戦術設計書（チャネル別ボトムアップ数値・週次オペ・検証ゲート・感度分析） |
 
 ## 事業の前提（口頭指示の整理）
 
