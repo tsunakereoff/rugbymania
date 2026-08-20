@@ -16,6 +16,8 @@
 | [docs/04_strategy.md](docs/04_strategy.md) | 戦略分析（3C / SWOT / STP / 4P）・ビジネスモデル・収支計画 |
 | [docs/05_requirements.md](docs/05_requirements.md) | サービス要件定義（フェーズ計画・機能要件・非機能要件・法務論点） |
 | [docs/06_growth.md](docs/06_growth.md) | グロース戦略（SEO / SNS / ツナカレ連携）と KPI 設計 |
+| [docs/07_whitespace-analysis.md](docs/07_whitespace-analysis.md) | 市場の空白の性質見極め（大手撤退理由・口コミ専業空白の深掘り） |
+| [docs/08_brand.md](docs/08_brand.md) | ブランド戦略（サブブランド vs 独立ブランドの比較・推奨） |
 
 ## 事業の前提（口頭指示の整理）
 
