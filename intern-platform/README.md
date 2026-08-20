@@ -25,6 +25,7 @@
 | [docs/13_coldstart-usp.md](docs/13_coldstart-usp.md) | コールドスタート再設計・学生向けUSP確定・ツナカレインターン統合（供給先行への修正） |
 | [docs/14_acquisition.md](docs/14_acquisition.md) | 募集形態の決定（公開×審査制ハイブリッド）と学生集客アーキテクチャ（4類型・オファー階段・許容CAC） |
 | [docs/15_system-foundation.md](docs/15_system-foundation.md) | システム基盤の確認結果（ツナカレ本体は未実装=グリーンフィールド）と共通ID・適性検査統合設計 |
+| [docs/16_final-requirements.md](docs/16_final-requirements.md) | 最終要件定義・設計書（実装版: 全決定ログ・アーキテクチャ・データモデル・CRM連携・テスト戦略・マイルストーン） |
 
 ## 事業の前提（口頭指示の整理）
 
