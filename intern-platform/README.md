@@ -28,6 +28,7 @@
 | [docs/16_final-requirements.md](docs/16_final-requirements.md) | 最終要件定義・設計書（実装版: 全決定ログ・アーキテクチャ・データモデル・CRM連携・テスト戦略・マイルストーン） |
 | [docs/17_assessment-integration.md](docs/17_assessment-integration.md) | 適性検査との統合設計 確定版（共有パッケージ方式・文脈バリアント・ファネル組み込み・本体コード確認依頼） |
 | [docs/18_master-plan.md](docs/18_master-plan.md) | **マスタープラン（正本）** — 全要件・事業戦略・ツナカレ接合設計の統合版 |
+| [docs/19_operational-specs.md](docs/19_operational-specs.md) | 運用仕様書（審査ルーブリック・転換フィー条件表・招待=推薦設計・企業側の適合判断ガイド） |
 
 ## 事業の前提（口頭指示の整理）
 
