@@ -27,6 +27,7 @@
 | [docs/15_system-foundation.md](docs/15_system-foundation.md) | システム基盤の確認結果（ツナカレ本体は未実装=グリーンフィールド）と共通ID・適性検査統合設計 |
 | [docs/16_final-requirements.md](docs/16_final-requirements.md) | 最終要件定義・設計書（実装版: 全決定ログ・アーキテクチャ・データモデル・CRM連携・テスト戦略・マイルストーン） |
 | [docs/17_assessment-integration.md](docs/17_assessment-integration.md) | 適性検査との統合設計 確定版（共有パッケージ方式・文脈バリアント・ファネル組み込み・本体コード確認依頼） |
+| [docs/18_master-plan.md](docs/18_master-plan.md) | **マスタープラン（正本）** — 全要件・事業戦略・ツナカレ接合設計の統合版 |
 
 ## 事業の前提（口頭指示の整理）
 
