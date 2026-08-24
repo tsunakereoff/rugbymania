@@ -134,7 +134,7 @@
 | W6 | 企業申込・契約同意スナップショット・求人審査/公開 | ✅ 完了（PR #4マージ。契約条件はcontract-terms.ts一元管理+同意時スナップショット保存、ADMIN_TOKEN保護の審査/公開、公開求人のDB読み出し。279テストgreen） |
 | W5' | 招待/推薦システム（doc19 §3。合格直後の推薦状発行・/r/[code]・エントリー時のコード検証） | ✅ 完了（PR #5マージ。推薦理由テンプレ7種・LINE3トーン文面・期限14日・自己使用防止・二重使用レース対策。②実利=ギフト/バッジは運用側で別途。317テストgreen） |
 | W7-A | マッチング計算パイプライン+admin提示管理 | ✅ 完了（PR #6マージ。matchScore→poolNormalize→上位最大5件の決定論選抜、企業向けAI推薦文=匿名・型レベルでPII排除、adminマッチングタブ。364テストgreen） |
-| W7-B | LINE連携（提示チャネル=LINE公式アカウントで確定・2026-08-24） | 🔄 実装中（feat/w7-line。連携コードでline_user_id紐付け→マッチ提示push→受諾/辞退postback→面談確約。MATCHING_ENABLEDゲートで11/2前は通知無効。ユーザー側: Channel secret/access token/友だち追加URLの共有待ち） |
+| W7-B | LINE連携（提示チャネル=LINE公式アカウントで確定・2026-08-24） | ✅ 完了（PR #7マージ。連携コード→line_user_id紐付け、署名検証つきWebhook、マッチ提示push+受諾/辞退postback（本人検証・レース対策）、MATCHING_ENABLEDゲートで11/2前は通知無効。445テストgreen。既存LINEアカウント調査の結果=ツナカレサポートは個人LINE運用だったため、インターン用の公式アカウント新規作成+キー共有が引き続き必要） |
 | W8 | 総合テスト・リリース判定 | |
 
 現時点の実装合計: 317テストgreen（assessment 66 / screening 94 / web 157）・全PRがCI緑でmainマージ済み。運用開始に必要な環境変数: ANTHROPIC_API_KEY / SCREENING_MODEL・GAKUCHIKA_MODEL（既定claude-sonnet-5） / SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY / ADMIN_TOKEN / NEXT_PUBLIC_SITE_URL
