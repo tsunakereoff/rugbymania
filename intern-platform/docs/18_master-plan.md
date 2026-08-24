@@ -132,9 +132,11 @@
 | W2-3 | 公開サイト+ティザー診断+ガクチカ言語化+Supabaseスキーマ/RLS | ✅ 完了（PR #1マージ。がくちか添削の既定モデルはclaude-sonnet-5に変更済み=PR #2） |
 | W4-5 | 審査エントリー+完全自動採点（adminキューは19§1-3改訂で廃止） | ✅ 完了（PR #3マージ。@tsunakare/screening=アンカー例つきLLM採点3回中央値+F4ルール採点、/entry+/api/entry、Supabase接続層。213テストgreen。Supabase実環境接続とメール通知は未=プロジェクト作成待ち） |
 | W6 | 企業申込・契約同意スナップショット・求人審査/公開 | ✅ 完了（PR #4マージ。契約条件はcontract-terms.ts一元管理+同意時スナップショット保存、ADMIN_TOKEN保護の審査/公開、公開求人のDB読み出し。279テストgreen） |
-| W5' | 招待/推薦システム（doc19 §3。合格直後の推薦状発行・/r/[code]・エントリー時のコード検証） | 🔄 実装中（feat/w5-referral） |
-| W7 | マッチ提示・面談確約（11/2運用リハーサル） | |
+| W5' | 招待/推薦システム（doc19 §3。合格直後の推薦状発行・/r/[code]・エントリー時のコード検証） | ✅ 完了（PR #5マージ。推薦理由テンプレ7種・LINE3トーン文面・期限14日・自己使用防止・二重使用レース対策。②実利=ギフト/バッジは運用側で別途。317テストgreen） |
+| W7 | マッチ提示・面談確約（11/2運用リハーサル） | ⏸ 着手前。前提3つ: ①Supabase実環境（プロジェクト作成待ち） ②本体ミラー到着→論点B/C確定（共通ID・受諾の本人確認方式） ③学生への提示チャネル（LINE/メール）の決定 |
 | W8 | 総合テスト・リリース判定 | |
+
+現時点の実装合計: 317テストgreen（assessment 66 / screening 94 / web 157）・全PRがCI緑でmainマージ済み。運用開始に必要な環境変数: ANTHROPIC_API_KEY / SCREENING_MODEL・GAKUCHIKA_MODEL（既定claude-sonnet-5） / SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY / ADMIN_TOKEN / NEXT_PUBLIC_SITE_URL
 
 ---
 
